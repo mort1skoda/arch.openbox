@@ -1,0 +1,11 @@
+.cache/
+.config/gh/
+.lesshst
+.viminfo
+.bash_history
+*Xorg.0.log*
+.Xauthority
+
+
+
+

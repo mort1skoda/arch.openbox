@@ -1,0 +1,3 @@
+setxkbmap no
+exec openbox
+
