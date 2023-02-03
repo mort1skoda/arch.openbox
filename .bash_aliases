@@ -133,6 +133,11 @@ alias gco='git checkout '
 alias ga='git add'
 alias gaa='git add --all'
 alias gp='git push'
+#
+alias gb='git branch'
+#
+#
+#
 # mapleader = , here , is vim 
 alias ,gi='vim .gitignore'
 alias ,gc='vim ~/.gitconfig'
