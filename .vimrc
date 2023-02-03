@@ -103,6 +103,7 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " Set the color scheme.
 colorscheme desert
 
+
 "################ DRACULA dracula ###########
 "packadd! dracula
 "syntax enable

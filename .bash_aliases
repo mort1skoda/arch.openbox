@@ -58,7 +58,7 @@ alias wl='watch --color ls -la --color --group-directories-first'
 
 # cat aliases then grep for <token>
 alias ag='alias | grep -i --color '
-alias cag='source ~/.aliases.sh && cat ~/.aliases.sh | grep -i --color '
+alias cag='source ~/.bash_aliases.sh && cat ~/.bash_aliases.sh | grep -i --color '
 
 # su  =  su root  by default in bash. 
 
@@ -147,11 +147,11 @@ alias ,gc='vim ~/.gitconfig'
 
 #--- tmux --------------------------------------------------{{{
 # tm = tmux, start a new tmux session
-alias tm="tmux"
+alias tm="cd ~/ && tmux"
 # tl = tmux list
 alias tl='tmux ls'
 # ta=tmux attach -t [enter session-name from tl]
-alias ta='tmux a -t '
+alias ta='cd ~/ && tmux a -t '
 # ,et = edit .tmux.conf
 alias ,t='vim ~/.tmux.conf'
 

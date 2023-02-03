@@ -1,3 +1,3 @@
-#setxkbmap no
+setxkbmap no
 exec openbox
 
