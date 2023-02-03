@@ -64,8 +64,7 @@ set relativenumber
 set cursorline
 " Highlight cursor line underneath the cursor vertically.
 set cursorcolumn
-" Set the color scheme.
-"colorscheme molokai
+"
 " Set shift width to 4 spaces.
 set shiftwidth=4
 " Set tab width to 4 columns.
@@ -100,6 +99,9 @@ set wildmode=list:longest
 " There are certain files that we would never want to edit with Vim.
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
+
+" Set the color scheme.
+colorscheme desert
 
 "################ DRACULA dracula ###########
 "packadd! dracula
