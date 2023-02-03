@@ -1,5 +1,6 @@
 echo "~/.bash_aliases"
 #
+unalias -a
 #
 #--- header ------------------------------------------------{{{
 #
@@ -135,11 +136,11 @@ alias gp='git push'
 #
 alias gb='git branch'
 alias grc='git rm -r --cached '
-#
+alias grl='git reflog '#
 #
 # mapleader = , here , is vim 
-alias ,gi='vim .gitignore'
-alias ,gc='vim ~/.gitconfig'
+alias egi='vim .gitignore'
+alias egc='vim ~/.gitconfig'
 
 #---------------------------------------------------------}}}
 
