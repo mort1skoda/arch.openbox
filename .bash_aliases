@@ -135,7 +135,7 @@ alias gaa='git add --all'
 alias gp='git push'
 #
 alias gb='git branch'
-#
+alias grc='git rm -r --cached '
 #
 #
 # mapleader = , here , is vim 
