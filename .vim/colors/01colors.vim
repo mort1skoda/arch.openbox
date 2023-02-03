@@ -1,7 +1,7 @@
 
 
 " Here's a shorter script that displays a sample of all 256 cterm colors, by appending to the current buffer:
-let num = 255
+let num = 32
 while num >= 0
    exec 'hi col_'.num.' ctermbg='.num.' ctermfg=white'
     exec 'syn match col_'.num.' "ctermbg='.num.':...." containedIn=ALL'

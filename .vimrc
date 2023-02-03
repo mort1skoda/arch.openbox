@@ -101,7 +101,7 @@ set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 " Set the color scheme.
-colorscheme desert
+colorscheme 12my.desert
 
 
 "################ DRACULA dracula ###########
@@ -258,7 +258,7 @@ nnoremap <esc> <esc>:echo"-- NORMAL -- esc"<cr>
 inoremap <esc> <esc>l:echo"-- NORMAL -- esc"<cr>
 
 
-nnoremap <C-s> <esc>:w<cr>
+nnoremap <C-s> <esc>:w<cr>:so ~/.vimrc<cr>
 inoremap <C-s> <esc>:w<cr>l
 vnoremap <C-s> <esc>:w<cr>l
 cnoremap <C-s> <esc>:w<cr>l
