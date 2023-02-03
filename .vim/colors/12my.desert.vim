@@ -147,8 +147,8 @@ if s:t_Co >= 256
   hi SpellCap ctermfg=111 ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=222 ctermbg=NONE cterm=underline
   hi SpellRare ctermfg=112 ctermbg=NONE cterm=underline
-  hi Comment ctermfg=240 ctermbg=NONE cterm=NONE
-  hi Identifier ctermfg=120 ctermbg=NONE cterm=NONE
+  hi Comment ctermfg=7 ctermbg=NONE cterm=NONE
+  hi Identifier ctermfg=10 ctermbg=NONE cterm=NONE
   hi Statement ctermfg=2 ctermbg=NONE cterm=bold
   hi Constant ctermfg=217 ctermbg=NONE cterm=NONE
   hi PreProc ctermfg=167 ctermbg=NONE cterm=NONE

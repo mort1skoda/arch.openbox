@@ -24,17 +24,7 @@ echo "~/.bash_aliases"
 
 
 #--- bash --------------------------------------------------{{{
-# start programs:
 alias bl='bash --login'
-alias bt="bashtop"
-alias f='vifm /home/m /home/m/repos'
-alias x='startx'
-alias a='alias' #list all aliases
-alias s='sudo'
-alias gv='gvim '
-# clear screen:
-alias cs='clear'
-alias nf="clear && neofetch"
 
 # change directory:
 alias ..='cd .. && ls -la --color --group-directories-first'
@@ -58,7 +48,7 @@ alias wl='watch --color ls -la --color --group-directories-first'
 
 # cat aliases then grep for <token>
 alias ag='alias | grep -i --color '
-alias cag='source ~/.bash_aliases.sh && cat ~/.bash_aliases.sh | grep -i --color '
+alias cag='source ~/.bash_aliases && cat ~/.bash_aliases | grep -i --color '
 
 # su  =  su root  by default in bash. 
 
@@ -80,6 +70,7 @@ alias sai='sudo apt install '
 alias sau='sudo apt update -y && sudo apt upgrade -y && autoremove'
 alias pu='sudo pacman -Syyu'
 alias pi='sudo pacman --noconfirm -S '
+
 alias rb='sudo reboot'
 alias sd="sudo shutdown -h now"
 
@@ -87,7 +78,8 @@ alias sd="sudo shutdown -h now"
 alias lbl="lsblk -o NAME,MODEL,PARTTYPENAME,FSTYPE,SIZE,MOUNTPOINTS,SERIAL"
 alias lsblk='lsblk -o NAME,MODEL,PARTTYPENAME,FSTYPE,SIZE,MOUNTPOINTS,SERIAL'
 alias cp="cp -iv"
-
+alias mv='mv -iv '
+alias rm='rm -vrf '
 
 # quit or exit shell.  same as quiting vim (whitout save)
 alias q='exit'
@@ -95,7 +87,6 @@ alias q='exit'
 
 
 #--- edit files ------------------------------------------------{{{ vim edit resources:
-alias ,='vim'
 alias v='vim'
 alias vi='vim'
 alias ea='vim ~/.bash_aliases && . ~/.bash_aliases'
@@ -103,17 +94,25 @@ alias eb='vim ~/.bashrc && . ~/.bashrc'
 alias ebp='vim ~/.bash_profile . ~/.bash_profile'
 alias ev='vim ~/.vimrc'
 
-
-
-alias ,a='vim ~/.bash_aliases && source ~/.bash_profile'
-alias ,b='vim ~/.bashrc && source ~/.bashrc'
-alias ,f='vim ~/.vifm/vifmrc.vim'
-alias ,p='vim ~/.profile'
-alias ,v='vim ~/.vimrc'
+alias evf='vim ~/.vifm/vifmrc.vim'
 #---------------------------------------------------------------}}}
 
 
 #--- start programs -------------------------------------------------{{{
+alias bt="bashtop"
+alias vf='vifm /home/m /rep/'
+alias x='startx'
+alias a='alias' #list all aliases
+alias s='sudo'
+alias gv='gvim '
+# clear screen:
+alias cs='clear'
+alias nf="clear && neofetch"
+
+
+
+
+
 alias lf='lf'
 alias vf='vifm'
 alias ff='firefox &'
