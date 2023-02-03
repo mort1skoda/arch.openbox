@@ -38,7 +38,7 @@ alias .wc='cd /mnt/c && ls -la --color --group-directories-first'
 alias .wd='cd /mnt/d && ls -la --color --group-directories-first'
 
 # list directories:
-alias l='ls -la --color --group-directories-first'
+alias l='ls -la --color --group-directories-first && git branch'
 alias ll='ls -l --color --group-directories-first'
 alias ls='ls --color --group-directories-first'
 alias lg='ls -la --color --group-directories-first | grep -i --color '
@@ -86,7 +86,7 @@ alias q='exit'
 #---------------------------------------------------------}}}
 
 
-#--- edit files ------------------------------------------------{{{ vim edit resources:
+#--- edit files ------------------------------------------------{{{
 alias v='vim'
 alias vi='vim'
 alias ea='vim ~/.bash_aliases && . ~/.bash_aliases'

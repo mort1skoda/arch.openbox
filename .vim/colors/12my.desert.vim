@@ -1,3 +1,5 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""{{{
+
 " Name:         desert
 " Description:  Light background colorscheme.
 " Author:       Original author Hans Fugal <hans@fugal.net>
@@ -91,6 +93,9 @@ hi DiffChange guifg=#ffffff guibg=#5f87af gui=NONE cterm=NONE
 hi DiffText guifg=#000000 guibg=#c6c6c6 gui=NONE cterm=NONE
 hi DiffDelete guifg=#ffffff guibg=#af5faf gui=NONE cterm=NONE
 
+"""" end gui """"""""""""""""""""""""""""""""""""""""""""}}}
+
+
 if s:t_Co >= 256
   hi! link Terminal Normal
   hi! link LineNrAbove LineNr
@@ -101,32 +106,70 @@ if s:t_Co >= 256
   hi! link EndOfBuffer NonText
   hi! link MessageWindow Pmenu
   hi! link PopupNotification Todo
-  hi Normal ctermfg=231 ctermbg=234 cterm=NONE
-  hi StatusLine ctermfg=236 ctermbg=144 cterm=NONE
-  hi StatusLineNC ctermfg=242 ctermbg=144 cterm=NONE
-  hi StatusLineTerm ctermfg=236 ctermbg=144 cterm=NONE
-  hi StatusLineTermNC ctermfg=231 ctermbg=144 cterm=NONE
-  hi VertSplit ctermfg=242 ctermbg=144 cterm=NONE
-  hi Pmenu ctermfg=231 ctermbg=241 cterm=NONE
-  hi PmenuSel ctermfg=236 ctermbg=186 cterm=NONE
-  hi PmenuSbar ctermfg=NONE ctermbg=236 cterm=NONE
-  hi PmenuThumb ctermfg=NONE ctermbg=144 cterm=NONE
-  hi TabLine ctermfg=236 ctermbg=144 cterm=NONE
-  hi TabLineFill ctermfg=NONE ctermbg=144 cterm=NONE
-  hi TabLineSel ctermfg=236 ctermbg=186 cterm=NONE
-  hi ToolbarLine ctermfg=NONE ctermbg=241 cterm=NONE
-  hi ToolbarButton ctermfg=236 ctermbg=222 cterm=NONE
-  hi NonText ctermfg=81 ctermbg=239 cterm=NONE
-  hi SpecialKey ctermfg=112 ctermbg=NONE cterm=NONE
-  hi Folded ctermfg=226 ctermbg=239 cterm=NONE
-  hi Visual ctermfg=186 ctermbg=64 cterm=NONE
-  hi VisualNOS ctermfg=186 ctermbg=81 cterm=NONE
-  hi LineNr ctermfg=226 ctermbg=NONE cterm=NONE
-  hi FoldColumn ctermfg=226 ctermbg=239 cterm=NONE
-  hi CursorLine ctermfg=NONE ctermbg=241 cterm=NONE
-  hi CursorColumn ctermfg=NONE ctermbg=241 cterm=NONE
-  hi CursorLineNr ctermfg=226 ctermbg=NONE cterm=bold
-  hi QuickFixLine ctermfg=236 ctermbg=186 cterm=NONE
+
+"-----------------------------------------------------
+  hi Normal ctermfg=255 ctermbg=232 cterm=NONE
+  hi VertSplit ctermfg=255 ctermbg=234 cterm=NONE
+  hi Comment ctermfg=242 ctermbg=233 cterm=NONE
+"--- NonText is eg. the $ at the end of line
+  hi NonText ctermfg=242 ctermbg=232 cterm=NONE
+
+"- color:hi set let nnoremap    C:return ------
+  hi Statement ctermfg=90 ctermbg=NONE cterm=bold
+"- color: ctermfg ctermbg       C:int char
+  hi Type ctermfg=62 ctermbg=NONE cterm=bold
+"--- constants and string:
+  hi Constant ctermfg=70 ctermbg=233 cterm=NONE
+
+"--- C-w>  --- <cr>  
+  hi Special ctermfg=62 ctermbg=NONE cterm=NONE
+"--- #include  
+  hi PreProc ctermfg=198 ctermbg=NONE cterm=NONE
+
+  hi LineNr ctermfg=144 ctermbg=233 cterm=NONE
+  hi CursorLineNr ctermfg=142 ctermbg=232 cterm=NONE
+  hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE
+  hi CursorColumn ctermfg=NONE ctermbg=234 cterm=NONE
+  hi Visual ctermfg=NONE ctermbg=NONE cterm=reverse
+
+"ASdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
+"fsdfgdsgsdfgsalsdkfjhalskdfhdjhfdjksallaskdjfh
+"gasdfkjgasjdaksjdfggfdhjdsakdjg
+
+  hi Folded ctermfg=62 ctermbg=234 cterm=NONE
+  hi FoldColumn ctermfg=62 ctermbg=234 cterm=bold
+
+"---------- sdfgsdfg  sdfg  sdfg  ------/////   -----######    {{{
+
+
+
+"----------#######;;;;;;;;;;""""""""""""""""2------------------}}}
+
+  hi StatusLine ctermfg=235 ctermbg=144 cterm=bold
+  hi StatusLineNC ctermfg=232 ctermbg=144 cterm=NONE
+
+  hi StatusLineTerm ctermfg=235 ctermbg=144 cterm=NONE
+  hi StatusLineTermNC ctermfg=232 ctermbg=144 cterm=NONE
+
+  hi Search ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi IncSearch ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi Todo ctermfg=196 ctermbg=238 cterm=bold
+"TODO: 
+
+  hi Pmenu ctermfg=9 ctermbg=234 cterm=NONE
+  hi PmenuSel ctermfg=9 ctermbg=234 cterm=NONE
+  hi PmenuSbar ctermfg=9 ctermbg=234 cterm=NONE
+  hi PmenuThumb ctermfg=9 ctermbg=234 cterm=NONE
+  hi TabLine ctermfg=9 ctermbg=234 cterm=NONE
+  hi TabLineFill ctermfg=9 ctermbg=234 cterm=NONE
+  hi TabLineSel ctermfg=9 ctermbg=234 cterm=NONE
+  hi ToolbarLine ctermfg=9 ctermbg=234 cterm=NONE
+  hi ToolbarButton ctermfg=9 ctermbg=234 cterm=NONE
+  hi SpecialKey ctermfg=200 ctermbg=234 cterm=NONE
+  hi VisualNOS ctermfg=9 ctermbg=234 cterm=NONE
+
+
+  hi QuickFixLine ctermfg=9 ctermbg=234 cterm=NONE
   hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=111 ctermbg=NONE cterm=underline
   hi Error ctermfg=196 ctermbg=231 cterm=reverse
@@ -135,37 +178,39 @@ if s:t_Co >= 256
   hi WarningMsg ctermfg=167 ctermbg=NONE cterm=bold
   hi MoreMsg ctermfg=112 ctermbg=NONE cterm=bold
   hi Question ctermfg=120 ctermbg=NONE cterm=bold
-  hi Todo ctermfg=196 ctermbg=226 cterm=NONE
+
+
   hi MatchParen ctermfg=242 ctermbg=143 cterm=NONE
-  hi Search ctermfg=186 ctermbg=242 cterm=NONE
-  hi IncSearch ctermfg=186 ctermbg=172 cterm=NONE
+
   hi WildMenu ctermfg=236 ctermbg=226 cterm=NONE
   hi ColorColumn ctermfg=231 ctermbg=167 cterm=NONE
   hi debugPC ctermfg=241 ctermbg=NONE cterm=reverse
   hi debugBreakpoint ctermfg=217 ctermbg=NONE cterm=reverse
   hi SpellBad ctermfg=167 ctermbg=NONE cterm=underline
+
   hi SpellCap ctermfg=111 ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=222 ctermbg=NONE cterm=underline
   hi SpellRare ctermfg=112 ctermbg=NONE cterm=underline
-  hi Comment ctermfg=7 ctermbg=NONE cterm=NONE
   hi Identifier ctermfg=10 ctermbg=NONE cterm=NONE
-  hi Statement ctermfg=2 ctermbg=NONE cterm=bold
-  hi Constant ctermfg=217 ctermbg=NONE cterm=NONE
-  hi PreProc ctermfg=167 ctermbg=NONE cterm=NONE
-  hi Type ctermfg=143 ctermbg=NONE cterm=bold
-  hi Special ctermfg=222 ctermbg=NONE cterm=NONE
-  hi Directory ctermfg=81 ctermbg=NONE cterm=NONE
-  hi Conceal ctermfg=241 ctermbg=NONE cterm=NONE
-  hi Ignore ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi Title ctermfg=167 ctermbg=NONE cterm=bold
-  hi DiffAdd ctermfg=231 ctermbg=65 cterm=NONE
-  hi DiffChange ctermfg=231 ctermbg=67 cterm=NONE
-  hi DiffText ctermfg=16 ctermbg=251 cterm=NONE
-  hi DiffDelete ctermfg=231 ctermbg=133 cterm=NONE
+
+
+  hi Directory ctermfg=9 ctermbg=NONE cterm=NONE
+  hi Conceal ctermfg=9 ctermbg=NONE cterm=NONE
+  hi Ignore ctermfg=9 ctermbg=NONE cterm=NONE
+
+  hi Title ctermfg=9 ctermbg=NONE cterm=bold
+  hi DiffAdd ctermfg=9 ctermbg=NONE cterm=NONE
+  hi DiffChange ctermfg=9 ctermbg=NONE cterm=NONE
+  hi DiffText ctermfg=9 ctermbg=NONE cterm=NONE
+  hi DiffDelete ctermfg=9 ctermbg=NONE cterm=NONE
   unlet s:t_Co
   finish
 endif
-"dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddasfaf-------------asdfasf---
+
+"///////////////////////////////////////////////////////
+
+
+
 if s:t_Co >= 16
   hi Normal ctermfg=white ctermbg=black cterm=NONE
   hi StatusLine ctermfg=black ctermbg=grey cterm=NONE

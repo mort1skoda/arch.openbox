@@ -1,14 +1,16 @@
-""""""""""""""""""""""""""""""""""""""""
+
+
+"--- header -----------------------------------------------------{{{
 """"    ~/.vimrc    """"
 """"""""""""""""""""""""
 " Author: Morten Håkestad <mort1skoda@gmail.com>
 
-set list    " $ at line ending
 
-"--- tips and tricks and debug --------------------{{{
 " echom"in /home/m/.vimrc"
 " see dbgvim alias in .bash_aliases
-"--------------------------------------------------}}}
+"-----------------------------------------------------------}}}
+
+set list    " $ at line ending
 
 
 "--- folds -------------------{{{
@@ -201,7 +203,7 @@ nnoremap x x:echom"-- NORMAL -- x=delete one char"<cr>
 "h jh    h          kj  k
 
 nnoremap <space> i<space><esc>:echom"-- NORMAL -- space=insert space"<cr> 
-"nnoremap <tab> i<tab><esc>:echo"-- NORMAL -- tab=insert tab=4spaces"<cr>
+nnoremap <tab> i<tab><esc>:echo"-- NORMAL -- tab=insert tab=4spaces"<cr>
 
 
 " ctrl-x to search and replace.
