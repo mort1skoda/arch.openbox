@@ -70,14 +70,6 @@ alias hg='cat .bash_history | grep -i '
 alias os='cat /etc/os-release'
 alias wa='whoami'
 
-# vim edit resources:
-alias ,='vim'
-alias ,a='vim ~/.bash_aliases && source ~/.bash_profile'
-alias ,b='vim ~/.bashrc && source ~/.bashrc'
-alias ,f='vim ~/.vifm/vifmrc.vim'
-alias ,p='vim ~/.profile'
-alias ,v='vim ~/.vimrc'
-
 # source profile, bashrc, aliases 
 alias sp='source ~/.bash_profile'
 alias sb='source ~/.bashrc'
@@ -102,6 +94,32 @@ alias q='exit'
 #---------------------------------------------------------}}}
 
 
+#--- edit files ------------------------------------------------{{{ vim edit resources:
+alias ,='vim'
+alias v='vim'
+alias vi='vim'
+alias ea='vim ~/.bash_aliases && . ~/.bash_aliases'
+alias eb='vim ~/.bashrc && . ~/.bashrc'
+alias ebp='vim ~/.bash_profile . ~/.bash_profile'
+alias ev='vim ~/.vimrc'
+
+
+
+alias ,a='vim ~/.bash_aliases && source ~/.bash_profile'
+alias ,b='vim ~/.bashrc && source ~/.bashrc'
+alias ,f='vim ~/.vifm/vifmrc.vim'
+alias ,p='vim ~/.profile'
+alias ,v='vim ~/.vimrc'
+#---------------------------------------------------------------}}}
+
+
+#--- start programs -------------------------------------------------{{{
+alias lf='lf'
+alias vf='vifm'
+alias ff='firefox &'
+#--------------------------------------------------------------------}}}#
+#
+#
 #--- git ---------------------------------------------------{{{
 DATE=$(date +"[%Y-%m-%d %H:%M:%S]")
 #echo $DATE  
