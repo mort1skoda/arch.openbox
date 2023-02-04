@@ -1,3 +1,6 @@
 nnoremap q :q
 nnoremap <C-q> :q<cr>
 
+zo
+
+

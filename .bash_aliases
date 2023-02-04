@@ -133,7 +133,7 @@ alias gp='git push'
 #
 alias gb='git branch'
 alias grc='git rm -r --cached '
-alias grl='git reflog '#
+alias grl='git reflog '
 #
 # mapleader = , here , is vim 
 alias egi='vim .gitignore'
