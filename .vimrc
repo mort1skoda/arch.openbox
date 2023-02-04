@@ -177,6 +177,8 @@ nnoremap yw yw:echo'Normal yw=yank word'<cr>
 nnoremap yy yy:echo'Normal yy=yank the whole line'<cr>
 nnoremap yt yt
 nnoremap yf yf
+nnoremap yi yi
+nnoremap ya ya
 "NB! yt and yf can not have an echo statment after them.
 
 nnoremap D  d$:echo'Normal  D=Delete from cursor to end of line'<cr>
@@ -184,7 +186,9 @@ nnoremap dw dw:echo'Normal dw=delete word'<cr>
 nnoremap dd dd:echo'Normal dd=delete line'<cr>
 nnoremap df df
 nnoremap dt dt
-"NB! dt and df can not have an echo statment after them.
+nnoremap di di
+nnoremap da da
+"NB! df, dt, di, da can't have an echo statment after them.
 
 " make cw behave like dw and yw
 "nnoremap cw dwi

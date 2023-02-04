@@ -32,7 +32,7 @@ alias ..='cd .. && ls -la --color --group-directories-first'
 alias ...='cd ../.. && ls -la --color --group-directories-first'
 alias .r='cd / && ls -la --color --group-directories-first'
 alias .h='cd ~ && ls -la --color --group-directories-first'
-alias .d='cd /dat && ls -la --color --group-directories-first'
+alias .d='cd /home/sda4data && ls -la --color --group-directories-first'
 
 # windows C:\ and D:\
 alias .wc='cd /mnt/c && ls -la --color --group-directories-first'
@@ -153,7 +153,7 @@ alias tl='tmux ls'
 # ta=tmux attach -t [enter session-name from tl]
 alias ta='cd ~/ && tmux a -t '
 # ,et = edit .tmux.conf
-alias ,t='vim ~/.tmux.conf'
+alias et='vim ~/.tmux.conf'
 
 alias ts='./tmux.session.sh save'
 alias tr="./tmux.session.sh restore"
