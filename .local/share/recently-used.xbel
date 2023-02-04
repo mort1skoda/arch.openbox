@@ -33,4 +33,34 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/m/Downloads/philips_chassis_qfu1.2e_la.pdf" added="2023-02-04T19:40:32.051470Z" modified="2023-02-04T20:47:14.875768Z" visited="2023-02-04T19:40:32.051475Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-02-04T20:47:14.875756Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Downloads/philips_chassis_qfu1.2e_la-cpy.pdf" added="2023-02-04T19:41:08.660160Z" modified="2023-02-04T19:41:09.315032Z" visited="2023-02-04T19:41:08.660163Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-02-04T19:41:09.315018Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Downloads/philips_chassis_qfu1.2e_la-1.pdf" added="2023-02-04T20:35:09.489850Z" modified="2023-02-04T20:35:09.489868Z" visited="2023-02-04T20:35:09.489853Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-02-04T20:35:09.489861Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

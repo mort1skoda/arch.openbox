@@ -128,7 +128,7 @@ alias gr='git remote -v'
 alias gc='git commit -m "$DATE"'
 alias gco='git checkout '
 alias ga='git add'
-alias gaa='git add --all'
+alias gaa='git add --all && gs'
 alias gp='git push'
 #
 alias gb='git branch'

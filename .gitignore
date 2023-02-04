@@ -1,3 +1,4 @@
+# list of files you do not want in your repo
 .cache/
 .config/gh/
 .lesshst
