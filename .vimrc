@@ -114,9 +114,6 @@ colorscheme 12my.desert
 "------------------------------------------------------------------------------}}}
 
 
-" from Normal mode you can type q followed by enter to quit without saving
-nnoremap q :q
-" ctrl-q write and quit
 " in normal, insert, visual and command mode.
 
 " toggle fold
@@ -274,6 +271,8 @@ nnoremap <c-q> :wq<cr>
 inoremap <c-q> <ESC>:wq<cr>
 vnoremap <c-q> <ESC>:wq<cr>
 cnoremap <c-q> <ESC>:wq<cr>
+" from Normal mode you can type q followed by enter to quit without saving
+nnoremap q :q<cr>
 "----------------------------------------------------------------------------------}}}
 
 
