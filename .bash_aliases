@@ -94,8 +94,8 @@ alias ea='vim ~/.bash_aliases && . ~/.bash_aliases'
 alias eb='vim ~/.bashrc && . ~/.bashrc'
 alias ebp='vim ~/.bash_profile . ~/.bash_profile'
 alias ev='vim ~/.vimrc'
-
 alias evf='vim ~/.vifm/vifmrc.vim'
+alias ex='vim ~/.xinitrc'
 #---------------------------------------------------------------}}}
 
 
@@ -109,9 +109,6 @@ alias gv='gvim '
 # clear screen:
 alias cs='clear'
 alias nf="clear && neofetch"
-
-
-
 
 
 alias lf='lf'
@@ -152,7 +149,7 @@ alias tm="cd ~/ && tmux"
 alias tl='tmux ls'
 # ta=tmux attach -t [enter session-name from tl]
 alias ta='cd ~/ && tmux a -t '
-# ,et = edit .tmux.conf
+# et = edit .tmux.conf
 alias et='vim ~/.tmux.conf'
 
 alias ts='./tmux.session.sh save'

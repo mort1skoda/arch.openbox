@@ -13,4 +13,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/m/Downloads/st-0.9.tar.gz" added="2023-02-04T00:23:39.870615Z" modified="2023-02-04T00:23:40.826210Z" visited="2023-02-04T00:23:39.870620Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-02-04T00:23:40.826200Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

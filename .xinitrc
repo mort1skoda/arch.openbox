@@ -1,4 +1,6 @@
 setxkbmap no
 xset -dpms
-exec openbox
+#exec openbox
+exec dwm
+
 
