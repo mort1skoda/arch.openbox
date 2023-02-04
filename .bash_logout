@@ -1,3 +1,4 @@
 #
-# ~/.bash_logout
+ ~/.bash_logout
+gs 
 #
